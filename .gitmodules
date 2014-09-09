@@ -1,0 +1,36 @@
+[submodule ".vim/bundle/tlib_vim"]
+	path = .vim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule ".vim/bundle/auto-pairs"]
+	path = .vim/bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule ".vim/bundle/taglist"]
+	path = .vim/bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule ".vim/bundle/vim-addon-mw-utils"]
+	path = .vim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils
+[submodule ".vim/bundle/vim-snippets"]
+	path = .vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule ".vim/bundle/vim-snipmate"]
+	path = .vim/bundle/vim-snipmate
+	url = https://github.com/msanders/snipmate.vim
+[submodule ".vim/bundle/vim-hemisu"]
+	path = .vim/bundle/vim-hemisu
+	url = https://github.com/noahfrederick/vim-hemisu
+[submodule ".vim/bundle/vim-colors-pencil"]
+	path = .vim/bundle/vim-colors-pencil
+	url = https://github.com/reedes/vim-colors-pencil
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
