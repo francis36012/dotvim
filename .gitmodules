@@ -22,9 +22,6 @@
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround
-[submodule ".vim/bundle/vim-snipmate"]
-	path = .vim/bundle/vim-snipmate
-	url = https://github.com/msanders/snipmate.vim
 [submodule ".vim/bundle/vim-hemisu"]
 	path = .vim/bundle/vim-hemisu
 	url = https://github.com/noahfrederick/vim-hemisu
