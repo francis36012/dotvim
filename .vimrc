@@ -1,3 +1,4 @@
+set nocp
 set ts=4
 set sts=4
 set sw=4 noexpandtab
@@ -7,7 +8,6 @@ set autoindent
 set number
 
 " What I'm used to
-set nocp
 set bs=indent,eol,start
 set whichwrap+=<,>,h,l
 
@@ -20,8 +20,8 @@ set ruler
 
 set fileformat=unix
 set fileformats=unix,dos
-set encoding=utf8
-
+set encoding=utf-8
+setglobal fileencoding=utf-8
 " try	
 "	set t_Co=256
 "	colorscheme solarized 
@@ -40,9 +40,8 @@ syntax on
 filetype plugin indent on
 
 try	
-	set t_Co=256
 	set background=dark
-	colorscheme hemisu 
+	colorscheme solarized
 catch
 	set t_Co=8
 	colorscheme evening
