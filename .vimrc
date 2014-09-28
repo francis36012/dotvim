@@ -22,13 +22,6 @@ set fileformat=unix
 set fileformats=unix,dos
 set encoding=utf-8
 setglobal fileencoding=utf-8
-" try	
-"	set t_Co=256
-"	colorscheme solarized 
-" catch
-"	set t_Co=8
-"	colorscheme evening
-" endtry
 
 "set t_Co=256
 "set background=dark
@@ -40,11 +33,12 @@ syntax on
 filetype plugin indent on
 
 try	
+	set t_Co=256
+	colorscheme hemisu 
 	set background=dark
-	colorscheme solarized
 catch
 	set t_Co=8
-	colorscheme evening
+	colorscheme pablo 
 endtry
 
 set omnifunc=syntaxcomplete#Complete
