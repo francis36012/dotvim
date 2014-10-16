@@ -1,0 +1,1 @@
+/home/student/Documents/workspace/git/dotvim/vim-colorschemes/colors/d8g_03.vim

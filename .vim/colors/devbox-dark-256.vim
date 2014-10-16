@@ -1,0 +1,1 @@
+/home/student/Documents/workspace/git/dotvim/vim-colorschemes/colors/devbox-dark-256.vim

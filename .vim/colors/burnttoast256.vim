@@ -1,0 +1,1 @@
+/home/student/Documents/workspace/git/dotvim/vim-colorschemes/colors/burnttoast256.vim
