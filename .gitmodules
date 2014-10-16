@@ -34,6 +34,3 @@
 [submodule ".vim\\bundle\\vim-snipmate"]
 	path = .vim\\bundle\\vim-snipmate
 	url = https://github.com/garbas/vim-snipmate.git
-[submodule "vim-colorschemes"]
-	path = vim-colorschemes
-	url = https://github.com/flazz/vim-colorschemes.git

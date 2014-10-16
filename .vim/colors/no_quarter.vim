@@ -1,1 +1,0 @@
-/home/student/Documents/workspace/git/dotvim/vim-colorschemes/colors/no_quarter.vim

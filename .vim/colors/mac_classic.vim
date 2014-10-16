@@ -1,1 +1,0 @@
-/home/student/Documents/workspace/git/dotvim/vim-colorschemes/colors/mac_classic.vim
