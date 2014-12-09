@@ -27,14 +27,16 @@ setglobal fileencoding=utf-8
 "set background=dark
 "colorscheme solarized
 
-execute pathogen#infect()
-execute pathogen#helptags()
+call pathogen#infect()
+filetype off
+" execute pathogen#helptags()
 syntax on
 filetype plugin indent on
+let g:go_disable_autoinstall = 0
 
 try	
 	set t_Co=256
-	colorscheme hemisu 
+	colorscheme molokai 
 	set background=dark
 catch
 	set t_Co=8
