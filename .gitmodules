@@ -40,3 +40,12 @@
 [submodule ".vim/bundle/vim-molokai"]
 	path = .vim/bundle/vim-molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule ".vim/bundle/vim-distinguished"]
+	path = .vim/bundle/vim-distinguished
+	url = https://github.com/Lokaltog/vim-distinguished.git
+[submodule ".vim/bundle/vim-monokai"]
+	path = .vim/bundle/vim-monokai
+	url = https://github.com/sickill/vim-monokai.git
+[submodule ".vim/bundle/vim-darkmate"]
+	path = .vim/bundle/vim-darkmate
+	url = https://github.com/yearofmoo/Vim-Darkmate.git
