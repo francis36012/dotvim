@@ -2,6 +2,7 @@ set nocp
 set ts=4
 set sts=4
 set sw=4 noexpandtab
+set colorcolumn=90
 set nowrap
 set noeol
 set autoindent
@@ -28,10 +29,11 @@ setglobal fileencoding=utf-8
 "colorscheme solarized
 
 call pathogen#infect()
+execute pathogen#helptags()
 filetype off
-" execute pathogen#helptags()
 syntax on
 filetype plugin indent on
+
 let g:go_disable_autoinstall = 0
 
 try	
@@ -76,3 +78,16 @@ let Tlist_Inc_Winwidth=0	" Don't increase window width automatically
 
 " Auto-Pairs
 let g:AutoPairsFlyMode=1
+
+" Airline
+let g:airline_theme="dark"
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_detect_whitespace=0
+
+" Neocomplcache
+let g:neocomplcache_enable_at_startup = 1
+let g:neocomplcache_enable_smart_case = 1
+let g:neocomplcache_min_syntax_length = 4
