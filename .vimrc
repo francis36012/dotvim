@@ -2,7 +2,7 @@ set nocp
 set ts=4
 set sts=4
 set sw=4 noexpandtab
-set colorcolumn=90
+set colorcolumn=80
 set nowrap
 set noeol
 set autoindent
@@ -38,7 +38,7 @@ let g:go_disable_autoinstall = 0
 
 try	
 	set t_Co=256
-	colorscheme molokai 
+	colorscheme hybrid 
 	set background=dark
 catch
 	set t_Co=8

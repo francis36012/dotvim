@@ -1,9 +1,9 @@
 set ts=4
 if has("gui_running")
 	if has("gui_win32")
-		set guifont=Ubuntu_Mono:h12:cANSI
+		set guifont=Ubuntu_Mono:h11:cANSI
 	else
-		set guifont=Ubuntu\ Mono\ 12
+		set guifont=Ubuntu\ Mono\ 11
 	endif
 endif
 set autoindent
