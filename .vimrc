@@ -36,13 +36,13 @@ filetype plugin indent on
 
 let g:go_disable_autoinstall = 0
 
-try	
+try
 	set t_Co=256
-	colorscheme hybrid 
+	colorscheme hybrid
 	set background=dark
 catch
 	set t_Co=8
-	colorscheme pablo 
+	colorscheme pablo
 endtry
 
 set omnifunc=syntaxcomplete#Complete
@@ -91,3 +91,14 @@ let g:airline_right_alt_sep = ''
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_smart_case = 1
 let g:neocomplcache_min_syntax_length = 4
+
+" Function to remove trailing white spaces
+fun! <SID>StripTrailingWhitespaces()
+	let l = line(".")
+	let c = col(".")
+	%s/\s\+$//e
+	call cursor(l, c)
+endfun
+
+" remove white spaces when writing buffer
+autocmd BufWrite * :call <SID>StripTrailingWhitespaces()
