@@ -53,12 +53,12 @@
 [submodule ".vim/bundle/vim-airline"]
 	path = .vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
-[submodule ".vim/bundle/vim-neocomplcache"]
-	path = .vim/bundle/vim-neocomplcache
-	url = https://github.com/Shougo/neocomplcache.vim.git
 [submodule ".vim/bundle/vim-scala"]
 	path = .vim/bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
 [submodule ".vim/bundle/vim-hybrid"]
 	path = .vim/bundle/vim-hybrid
 	url = https://github.com/w0ng/vim-hybrid.git
+[submodule ".vim/bundle/vim-neocomplete"]
+	path = .vim/bundle/vim-neocomplete
+	url = https://github.com/Shougo/neocomplete.vim.git
