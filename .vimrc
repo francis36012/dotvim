@@ -80,11 +80,11 @@ let Tlist_Inc_Winwidth=0	" Don't increase window width automatically
 let g:AutoPairsFlyMode=1
 
 " Airline
-let g:airline_theme="dark"
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep = ''
+"let g:airline_theme="dark"
+"let g:airline_left_sep = ''
+"let g:airline_left_alt_sep = ''
+"let g:airline_right_sep = ''
+"let g:airline_right_alt_sep = ''
 " :let g:airline_detect_whitespace=0
 
 " Neocomplete

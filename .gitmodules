@@ -50,9 +50,6 @@
 [submodule ".vim/bundle/vim-darkmate"]
 	path = .vim/bundle/vim-darkmate
 	url = https://github.com/yearofmoo/Vim-Darkmate.git
-[submodule ".vim/bundle/vim-airline"]
-	path = .vim/bundle/vim-airline
-	url = https://github.com/bling/vim-airline
 [submodule ".vim/bundle/vim-scala"]
 	path = .vim/bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
@@ -62,3 +59,9 @@
 [submodule ".vim/bundle/vim-neocomplete"]
 	path = .vim/bundle/vim-neocomplete
 	url = https://github.com/Shougo/neocomplete.vim.git
+[submodule ".vim/bundle/vim-nerdcommenter"]
+	path = .vim/bundle/vim-nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule ".vim/bundle/vim-colorscheme-primary"]
+	path = .vim/bundle/vim-colorscheme-primary
+	url = https://github.com/google/vim-colorscheme-primary.git
