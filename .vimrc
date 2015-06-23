@@ -16,7 +16,7 @@ set whichwrap+=<,>,h,l
 set cursorline
 
 set laststatus=2
-set statusline=[%n]\ %<%F\ \ \ [%M%R%H%W%Y][%{&ff}]\ \ %=\ line:%l/%L\ col:%c\ \ \ %p%%
+set statusline=[%n][%t]%m%r%h%w%y[%{&ff}][%{(&fenc!=''?&fenc:&enc)}]\ \ %=\ L%l/%L\ Col:%c\ \ \ %p%%
 set ruler
 
 set fileformat=unix
@@ -38,7 +38,8 @@ let g:go_disable_autoinstall = 0
 
 try
 	set t_Co=256
-	colorscheme hybrid
+	colorscheme base16-solarized
+	let base16colorspace=256
 	set background=dark
 catch
 	set t_Co=8
@@ -76,16 +77,28 @@ let Tlist_Enable_Fold_Column=0	" Dont fold
 let Tlist_Use_SingleClick=1	" Single click takes cursor to where tag is
 let Tlist_Inc_Winwidth=0	" Don't increase window width automatically
 
+let g:snipMate = {}
+let g:snipMate['snippets_dir'] = funcref#Function('return ["~/.vim/bundle/vim-snippets/snippets"]')
+
 " Auto-Pairs
 let g:AutoPairsFlyMode=1
 
 " Airline
-"let g:airline_theme="dark"
-"let g:airline_left_sep = ''
-"let g:airline_left_alt_sep = ''
-"let g:airline_right_sep = ''
-"let g:airline_right_alt_sep = ''
-" :let g:airline_detect_whitespace=0
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols = {}
+let g:airline_symbols.crypt = '🔒'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'
+let g:airline#extensions#tabline#show_buffers = 1
 
 " Neocomplete
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -158,6 +171,8 @@ fun! <SID>StripTrailingWhitespaces()
 	%s/\s\+$//e
 	call cursor(l, c)
 endfun
+
+command! Rrc :so $MYVIMRC
 
 " remove white spaces when writing buffer
 autocmd BufWrite * :call <SID>StripTrailingWhitespaces()
